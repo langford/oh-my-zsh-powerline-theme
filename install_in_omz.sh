@@ -1,12 +1,12 @@
 #!/bin/sh
 
 echo "Creating symlink from here to your oh-my-zsh themes path..."
-
+theme=blue-train
 mkdir -p ~/.oh-my-zsh/custom/themes/
-ln -f powerline.zsh-theme ~/.oh-my-zsh/custom/themes/powerline.zsh-theme
+ln -f $theme.zsh-theme ~/.oh-my-zsh/custom/themes/$theme.zsh-theme
 
 echo "
-Done ! (the symlink is ~/.oh-my-zsh/custom/themes/powerline.zsh-theme)
+Done ! (the symlink is ~/.oh-my-zsh/custom/themes/$theme.zsh-theme)
 
 ----------------------------------------------------------------------------------
 
